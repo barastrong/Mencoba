@@ -90,7 +90,7 @@ const MovieList = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>KONTOL Terpopuler saat ini</Text>
+      <Text style={styles.header}>Moview Terpopuler saat ini</Text>
       <FlatList
         data={movies}
         renderItem={renderMovieItem}
